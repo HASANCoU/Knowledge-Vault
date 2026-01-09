@@ -227,44 +227,47 @@
   justify-content: center;
   gap: 60px;
 }
-
-#brain .brain-container .brain-contents{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
+.brain-img img {
+  height: 600px;
+  width: 600px;
+  border-radius: 12px;
 }
 
-.brain-contents .head-para{
-    color:#30b868;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-}
-.brain-contents #brain-heading{
-    margin-top: 16px;
-    font-size: 48px;
-    font-weight: bold;
-    color: #001931;
-    
-}
-.brain-contents #middle-para{
-    margin-top:16px;
-    font-size:16px;
-    line-height: 20px;
-    max-width: 482px;
-    
+#brain .brain-container .brain-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
 }
 
-.point-container{
+.brain-contents .head-para {
+  color: #30b868;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.brain-contents #brain-heading {
+  margin-top: 16px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+}
+.brain-contents #middle-para {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 482px;
+}
+
+.point-container {
   margin-top: 40px;
-  gap:16px;
+  gap: 16px;
 }
-.point{
+.point {
   display: flex;
   margin-top: 16px;
   gap: 6px;
 }
-.point h6{
+.point h6 {
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
