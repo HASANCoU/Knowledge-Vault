@@ -7,7 +7,6 @@
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 
@@ -117,7 +116,6 @@
   color: #ffffff;
 }
 
-
 .btn-container {
   display: flex;
   gap: 16px;
@@ -156,60 +154,118 @@
   color: #30b868;
 }
 
-#note{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+/* Note Section */
+#note {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+#note .title {
+  text-align: center;
+}
+
+#note .title h2 {
+  font-weight: bold;
+  font-size: 48px;
+  color: #001931;
+}
+#note .title p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-top: 16px;
+}
+
+.card-container {
+  display: flex;
+  gap: 24px;
+  max-width: 1360px;
+  margin-top: 44px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card .img-div {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #f95555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card h3 {
+  margin: 16px auto;
+  font-size: 24px;
+  font-weight: 500;
+  color: #001931;
+}
+
+/* Brain Section */
+#brain {
+  margin-top: 120px;
+  padding: 1;
+}
+#brain .brain-container {
+  max-width: 1360px;
+  margin: 0 auto;
+  max-width: 1360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+#brain .brain-container .brain-contents{
+    display: flex;
     flex-direction: column;
-    margin-top:60px;
+    align-items: left;
 }
 
-#note .title{
-    text-align: center;
-}
-
-#note .title h2{
-    font-weight:bold;
-    font-size: 48px;
-    color: #001931;
-}
-#note .title p{
+.brain-contents .head-para{
+    color:#30b868;
     font-size: 16px;
-    line-height:20px;
-    color:#627382;
+    font-weight: 500;
+    line-height: 20px;
+}
+.brain-contents #brain-heading{
+    margin-top: 16px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    
+}
+.brain-contents #middle-para{
     margin-top:16px;
+    font-size:16px;
+    line-height: 20px;
+    max-width: 482px;
+    
 }
 
-.card-container{
-    display: flex;
-    gap:24px;
-    max-width:1360px;
-    margin-top: 44px;
+.point-container{
+  margin-top: 40px;
+  gap:16px;
 }
-.card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    padding: 24px;
-    background-color: #FFFFFF;
-    border-radius: 8px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.point{
+  display: flex;
+  margin-top: 16px;
+  gap: 6px;
 }
-.card .img-div{
-    height: 60px;
-    width:60px;
-    border-radius: 50%;
-    background-color:#f95555;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.card h3{
-    margin:16px auto;
-    font-size: 24px;
-    font-weight: 500;
-    color: #001931;
+.point h6{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
 }
