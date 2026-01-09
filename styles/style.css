@@ -155,3 +155,61 @@
   background-color: #ffffff;
   color: #30b868;
 }
+
+#note{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    margin-top:60px;
+}
+
+#note .title{
+    text-align: center;
+}
+
+#note .title h2{
+    font-weight:bold;
+    font-size: 48px;
+    color: #001931;
+}
+#note .title p{
+    font-size: 16px;
+    line-height:20px;
+    color:#627382;
+    margin-top:16px;
+}
+
+.card-container{
+    display: flex;
+    gap:24px;
+    max-width:1360px;
+    margin-top: 44px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 24px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card .img-div{
+    height: 60px;
+    width:60px;
+    border-radius: 50%;
+    background-color:#f95555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card h3{
+    margin:16px auto;
+    font-size: 24px;
+    font-weight: 500;
+    color: #001931;
+}
